@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: rgba(128, 128, 128, 0.63);
+   
+}
+.offscreen{
+    transform: translateY(-9999px);
+    position: absolute;
+}
